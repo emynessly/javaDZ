@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class task {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите строку: ");
+        System.out.println("Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");
         String str = scanner.nextLine();
         String[] words = str.split(" ");
         if (words.length>=2) {
@@ -15,7 +15,7 @@ public class task {
                 }
             }
         } else {
-            System.out.println("Мало слов! ");
+            System.out.println("РњР°Р»Рѕ СЃР»РѕРІ! ");
         }
     }
 }
