@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class q7 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Сколько поездок?");
+        System.out.print("РЎРєРѕР»СЊРєРѕ РїРѕРµР·РґРѕРє? ");
         int n = scanner.nextInt();
 
         int[] tickets = new int[5];

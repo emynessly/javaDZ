@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class q4 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Какой начальный вклад?");
+        System.out.print("РљР°РєРѕР№ РЅР°С‡Р°Р»СЊРЅС‹Р№ РІРєР»Р°Рґ?");
         double money = scanner.nextDouble();
-        System.out.print("А на сколько лет?");
+        System.out.print("Рђ РЅР° СЃРєРѕР»СЊРєРѕ Р»РµС‚?");
         int years = scanner.nextInt();
-        System.out.print("Понятно... Какая процентная ставка?");
+        System.out.print("РџРѕРЅСЏС‚РЅРѕ... РљР°РєР°СЏ РїСЂРѕС†РµРЅС‚РЅР°СЏ СЃС‚Р°РІРєР°");
         double percentage = scanner.nextDouble();
 
         percentage=percentage/100;
@@ -18,7 +18,7 @@ public class q4 {
             System.out.println(i+1);
             money=money+(money*percentage);
         }
-        System.out.printf("Через %d года ты получишь %.2f рублев", years, money);
+        System.out.printf("Р§РµСЂРµР· %d РіРѕРґР° С‚С‹ РїРѕР»СѓС‡РёС€СЊ %.2f СЂСѓР±Р»РµРІ.", years, money);
     }
 
 }

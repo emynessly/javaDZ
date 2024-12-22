@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class q8 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Задайте значение a: ");
+        System.out.print("Р—Р°РґР°Р№С‚Рµ Р·РЅР°С‡РµРЅРёРµ a: ");
         int a = scanner.nextInt();
-        System.out.print("Задайте значение b: ");
+        System.out.print("Р—Р°РґР°Р№С‚Рµ Р·РЅР°С‡РµРЅРёРµ b: ");
         int b = scanner.nextInt();
 
         if (a == 0) {

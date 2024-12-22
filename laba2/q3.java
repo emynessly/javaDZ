@@ -6,9 +6,9 @@ public class q3 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         double tempCels = scanner.nextDouble();
-        System.out.print(tempCels+" градусов по Цельсию равно ");
+        System.out.print(tempCels+" РіСЂР°РґСѓСЃРѕРІ РїРѕ Р¦РµР»СЊСЃРёСЋ СЂР°РІРЅРѕ ");
 
         double tempFahr = tempCels*9/5 +32;
-        System.out.print(tempFahr+" градусов по Фаренгейту");
+        System.out.print(tempFahr+" РіСЂР°РґСѓСЃРѕРІ РїРѕ Р¤Р°СЂРµРЅРіРµР№С‚Сѓ");
     }
 }

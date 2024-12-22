@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class q16 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ñêîëüêî øàðèêîâ ìîðîæåíîãî âû õîòèòå âçÿòü? ");
+        System.out.println("Ð¡ÐºÐ¾Ð»ÑŒÐºÐ¾ ÑˆÐ°Ñ€Ð¸ÐºÐ¾Ð² Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ð³Ð¾ Ð²Ñ‹ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð²Ð·ÑÑ‚ÑŒ? ");
         int scoop = scanner.nextInt();
         while (scoop>3 && scoop%3!=0){
             scoop-=5;

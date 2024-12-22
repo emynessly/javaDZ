@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class q12 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Ââåäèòå äâà ÷èñëà ");
+        System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð° ");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         if (a>b){

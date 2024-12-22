@@ -6,7 +6,7 @@ public class q1 {
         double n = 23.5;
         long betterNumber = Math.round(n);
 
-        System.out.println("Исходное число: " + n);
-        System.out.println("Округленное число: " + betterNumber);
+        System.out.println("РСЃС…РѕРґРЅРѕРµ С‡РёСЃР»Рѕ: " + n);
+        System.out.println("РћРєСЂСѓРіР»РµРЅРЅРѕРµ С‡РёСЃР»Рѕ: " + betterNumber);
     }
 }
